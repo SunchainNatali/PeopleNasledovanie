@@ -1,4 +1,5 @@
 ﻿using System;
+
 namespace PeopleNasledovanie
 {
     public class Petya:Men
@@ -14,7 +15,6 @@ namespace PeopleNasledovanie
             Console.WriteLine($"Petya swims at speed of {meters} meters per minute. ");
         }
 
-
         public override void Talk(string someSpeech)
         {
             Console.WriteLine($"Petya said that {someSpeech}.");
@@ -22,9 +22,7 @@ namespace PeopleNasledovanie
 
         public override void Run(int meters)
         {
-
-            Console.WriteLine($"Petya runed {meters}.");
-           
+            Console.WriteLine($"Petya runed {meters}.");           
         }
 
         public override void GiveReproduction(int nuber)
