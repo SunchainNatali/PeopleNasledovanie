@@ -7,12 +7,11 @@ namespace PeopleNasledovanie
         {
             Console.WriteLine($"Masha is hobby {view}.");
         }
+        
         public static void Animals(string animal)
         {
             Console.WriteLine($"Masha has {animal}.");
         }
-
-
 
         public override void ColorEye(string color)
         {
@@ -31,8 +30,7 @@ namespace PeopleNasledovanie
 
         public override void Run(int meters)
         {
-            Console.WriteLine($"petya runed{meters}");
-            
+            Console.WriteLine($"petya runed{meters}");           
         }
 
         public override void Talk(string speech)
