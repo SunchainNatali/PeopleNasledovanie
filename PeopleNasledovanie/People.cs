@@ -1,4 +1,5 @@
 ﻿using System;
+
 namespace PeopleNasledovanie
 {
     public abstract class People
