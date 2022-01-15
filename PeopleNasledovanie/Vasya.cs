@@ -15,7 +15,6 @@ namespace PeopleNasledovanie
             Console.WriteLine($"Vasya have {number} cars.");
         }
         
-
         public override void ColorEye(string color)
         {
             Console.WriteLine($"Vasya is eye color {color}.");
@@ -37,8 +36,7 @@ namespace PeopleNasledovanie
 
         public override void Talk(string speech)
         {
-            Console.WriteLine($"Hallo {speech}.");
-              
+            Console.WriteLine($"Hallo {speech}.");             
         }
 
         public override void GiveReproduction(int nuber)
